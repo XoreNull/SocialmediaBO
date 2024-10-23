@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    background: #35374B;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+}
+
+.left-side-bar {
+    height: auto;
+    width: 15%;
+    color: white;
+    font-size: 10rem;
+    border-right: 0.1rem white solid;
+    background: linear-gradient(to right, #A79277, #6E5C47);
+}
+
+header {
+    width: 15%;
+}
+
+.left-side-bar > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-side-bar img {
+    width: 20rem;
+    height: 25%;
+}
+
+.left-side-bar ul {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+
+.left-side-bar li {
+    margin: 0.5rem;
+    border-radius: 1rem;
+    list-style: none;
+}
+
+.left-side-bar ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 3rem;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side-bar li:hover {
+    background: rgba(100, 50, 43, 0.5);
+}
+
+.fa-solid,
+.fa-brands {
+    font-size: 2rem;
+}
+
+.content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+
+.content article {
+    font-size: 2rem;
+    height: 100%;
+    width: 70%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 70rem;
+    width: 90%;
+    margin: 2rem;
+}
+
+.content__profile {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    width: 100%;
+    height: 20%;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, #BFEFFF, #7EC8E3) 1;
+    border-radius: 50%;
+}
+
+.image__content {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    border-bottom: white solid 0.1rem;
+    padding: 1rem;
+}
+
+.profile--js {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 1rem;
+    background: lightgray;
+    padding: 0.1rem;
+}
+
+.right-side-bar {
+    height: 50rem;
+    margin-left: 5rem;
+    font-size: 5rem;
+  
+}
+
+footer {
+    width: 30%;
+    height: auto;
+}
